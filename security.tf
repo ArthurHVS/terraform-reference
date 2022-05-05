@@ -1,0 +1,5 @@
+
+resource "aws_key_pair" "deployer" {
+  key_name   = "aws_key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDilIDKn3xPB4ClvcZlYo/WtQeqrUEK3Vk4AOpP0FBdqB8+SvgPVK3Z2UoWZ7tK1emCXSSuWY9zaofqpA7dNMwISB8H8wW3sv/2DmWEl3jTzau9AvpySOd+2SJydr8/jJQE9zTGvaUewddgeRUriXVzGrtkLgp2n24K8OsNSy0vLjj+Iv8dAJGBcMbjVk/oazLQIGGh1kzorbH4uQ7pW/dFaP7pL3X1iLrjUB5wJyiIRYpkPLifJZEbNytn6e4XE2x++sJdAyX/5vb4SyCewTluxOuXaVUlUCMS7zAFLz9NS5NGtLGKei9iln9OW/uk6Bykrv0qNyN0YZBvhsU3NKkbUELxHlWp/g4/go4oKmOfK+tkOZEgp2dwHnDh2gsU1UTmfxwHtIu+BqfAdTbliW96x/grPBOx7Vg+Ar7b4OBPghDyJVVK0fi57nsvLPP8S5HLYZ9pkRPNLkSCLx7GVeufvTOoavpM+la9rWCqPebrVCk7bvi2D7VOCUOr5QvGv6c= arthur@arthur-MBInspiron-3583"
+}
